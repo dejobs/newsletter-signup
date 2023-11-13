@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+.container {
+margin: 0 auto 20px auto;
+padding:20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-form {
+ width: 80%;
+ margin:auto;
+ display: block;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-input {
+  display:block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+input[type="email"], input[type="password"] {
+  font-size: 1.25rem;
+  color: #000000;
+  outline: none;
+  text-indent: 10px;
+  width:80%;
+  height: 35px;
+  margin: 15px 0;
+  padding: 5px;
+  background: #3333331b;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+input[type="checkbox"] {
+  width: 1.25rem;
+  height: auto;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+label {
+  font-size: 1.25rem;
+  text-transform: capitalize;
+  padding: 5px;
+}
+
+button {
+  height: 35px;
+  width: 150px;
+  background: #08b765;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 200;
+  outline: none;
+  margin-top: 15px;
+  padding: 5px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
